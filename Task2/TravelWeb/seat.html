@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="seat.css">
+    <title>Seat Selection</title>
+</head>
+<body class="dashboard"></body>
+    <div class="menu-container">
+        <nav class="menu">
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="search.html">Search and Booking</a></li>
+                <li><a href="payment.html">Payment Processing</a></li>
+                <li><a href="notifications.html">Notification and Alerts</a></li>
+                <li><a href="reviews.html">Reviews and Ratings</a></li>
+                <li><a href="mybookings.html">My Bookings</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </div>
+<body>
+    <header>
+        <h1>Seat Selection</h1>
+    </header>
+
+    <main>
+        <div class="seat-map">
+            <!-- First row of seats -->
+            <div class="seat-row">
+                <div class="seat available">1A</div>
+                <div class="seat available">1B</div>
+                <div class="seat available">1C</div>
+                <div class="seat available">1D</div>
+                <!-- Add more seats for this row -->
+            </div>
+
+            <!-- Second row of seats -->
+            <div class="seat-row">
+                <div class="seat available">2A</div>
+                <div class="seat available">2B</div>
+                <div class="seat available">2C</div>
+                <div class="seat available">2D</div>
+                <!-- Add more seats for this row -->
+            </div>
+
+            <!-- Third row of seats -->
+            <div class="seat-row">
+                <div class="seat available">3A</div>
+                <div class="seat available">3B</div>
+                <div class="seat available">3C</div>
+                <div class="seat available">3D</div>
+                <!-- Add more seats for this row -->
+            </div>
+
+            <!-- Add more rows with seats here -->
+        </div>
+
+        <div class="legend">
+            <div class="legend-item">
+                <div class="seat available"></div>
+                <span>Available</span>
+            </div>
+            <div class="legend-item">
+                <div class="seat booked"></div>
+                <span>Booked</span>
+            </div>
+            <div class="legend-item">
+                <div class="seat selected"></div>
+                <span>Selected</span>
+            </div>
+        </div>
+
+        <div class="instructions">
+            <p>Select an available seat by clicking on it.</p>
+        </div>
+    </main>
+
+    <footer>
+        <button id="confirmButton" class="confirm-button" onclick=" redirecttopayment()">Select Seat</button>
+    </footer>
+
+    <script>
+        function redirecttopayment()
+        {
+            window.location.href="payment.html"
+        }
+    </script>
+    <script src="seat.js"></script>
+
+</body>
+</html>
+
+

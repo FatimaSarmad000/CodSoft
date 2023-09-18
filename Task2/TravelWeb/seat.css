@@ -1,0 +1,147 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the page */
+body {
+    background-image: url('C:\\Users\\Fatima\\OneDrive\\Pictures\\dbimg2.jpg'); /* Update the path to your dashboard background image */
+
+    /* Adjust the background properties as needed */
+    background-size: 100% 100%; /* Cover the entire viewport */
+    background-attachment: fixed; /* Fixed background position */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.seat-map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seat-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.seat {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.available {
+    background-color: #4CAF50; /* Green for available seats */
+    color: #fff;
+}
+
+.booked {
+    background-color: #F44336; /* Red for booked seats */
+    color: #fff;
+}
+
+.selected {
+    background-color: #2196F3; /* Blue for selected seats */
+    color: #fff;
+}
+
+.legend {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+}
+
+.instructions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.confirm-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.confirm-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.dashboard {
+    /* Set the background image path */
+    background-image: url('C:\\Users\\Fatima\\OneDrive\\Pictures\\dbimg2.jpg'); /* Update the path to your dashboard background image */
+
+    /* Adjust the background properties as needed */
+    background-size: 100% 100%; /* Cover the entire viewport */
+    background-attachment: fixed; /* Fixed background position */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+}
+.menu-container {
+    position:fixed;
+    top: 0;
+    width: 140%; /* Make the menu container span the entire width */
+    background-color: #007bff; /* Set the menu background color */
+    z-index: 10000;
+    padding: 10px; /* Add some padding for spacing */
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline; /* Display menu items horizontally */
+    margin-right: 20px; /* Add spacing between menu items */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff; /* Set the menu item text color */
+    font-weight: bold; /* Make menu items bold */
+}
+
+/* Style for the active menu item (e.g., the current page) */
+.menu a.current {
+    border-bottom: 2px solid #fff; /* Add a bottom border to indicate the current page */
+}

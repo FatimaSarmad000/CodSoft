@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="availflights.css">
+    <title>Available Flights</title>
+</head>
+<body class="dashboard"></body>
+    <div class="menu-container">
+        <nav class="menu">
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="search.html">Search and Booking</a></li>
+                <li><a href="payment.html">Payment Processing</a></li>
+                <li><a href="notifications.html">Notification and Alerts</a></li>
+                <li><a href="reviews.html">Reviews and Ratings</a></li>
+                <li><a href="mybookings.html">My Bookings</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </div>
+<body>
+    <header>
+        <h1>Available Flights</h1>
+    </header>
+
+    <main>
+        <section class="flight">
+            <h2>Flight 1</h2>
+            <p><strong>Airline:</strong> Emirates Airlines</p>
+            <p><strong>Departure Airport:</strong> Islamabad International Airport</p>
+            <p><strong>Destination Airport:</strong> Dallas/Fort Worth International Airport (DFW)</p>
+            <p><strong>Amount:</strong>PKR:530,000</p>
+            <p><strong>Departure Time:</strong> 10:00 AM</p>
+            <button class="select-button" onclick=" redirecttoseat()">Select</button>
+        </section>
+
+        <section class="flight">
+            <h2>Flight 2</h2>
+            <p><strong>Airline:</strong> Qatar Airways</p>
+            <p><strong>Departure Airport:</strong> Islamabad International Airport</p>
+            <p><strong>Destination Airport:</strong> Dallas/Fort Worth International Airport (DFW)</p>
+            <p><strong>Amount:</strong>PKR:515,000</p>
+            <p><strong>Departure Time:</strong> 2:30 PM</p>
+            <button class="select-button" onclick=" redirecttoseat()">Select</button>
+        </section>
+    </main>
+
+     <script>
+        function redirecttoseat()
+        {
+            window.location.href="seat.html"
+        }
+     </script>
+  
+</body>
+</html>

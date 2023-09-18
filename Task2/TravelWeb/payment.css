@@ -1,0 +1,105 @@
+/* Styles for the payment page */
+
+/* Style for the payment container */
+.payment-container {
+    text-align: center;
+    margin-top: 100px; /* Adjust the margin as needed to position the payment container */
+}
+
+/* Style for the "Payment" heading on the payment page */
+.payment-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style for the payment form */
+.payment-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for labels and input fields on the payment page */
+.payment-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.payment-input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style for the payment button on the payment page */
+.payment-button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Hover effect for the payment button on the payment page */
+.payment-button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* End of styles for the payment page */
+.payment {
+    /* Set the background image path */
+    background-image: url('C:\\Users\\Fatima\\OneDrive\\Pictures\\dbimg2.jpg'); /* Update the path to your dashboard background image */
+
+    /* Adjust the background properties as needed */
+    background-size: 100% 100%; /* Cover the entire viewport */
+    background-attachment: fixed; /* Fixed background position */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+}
+.dashboard {
+    /* Set the background image path */
+    background-image: url('C:\\Users\\Fatima\\OneDrive\\Pictures\\dbimg2.jpg'); /* Update the path to your dashboard background image */
+
+    /* Adjust the background properties as needed */
+    background-size: 100% 100%; /* Cover the entire viewport */
+    background-attachment: fixed; /* Fixed background position */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+}
+.menu-container {
+    position:fixed;
+    top: 0;
+    width: 140%; /* Make the menu container span the entire width */
+    background-color: #007bff; /* Set the menu background color */
+    z-index: 10000;
+    padding: 10px; /* Add some padding for spacing */
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline; /* Display menu items horizontally */
+    margin-right: 20px; /* Add spacing between menu items */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff; /* Set the menu item text color */
+    font-weight: bold; /* Make menu items bold */
+}
+
+/* Style for the active menu item (e.g., the current page) */
+.menu a.current {
+    border-bottom: 2px solid #fff; /* Add a bottom border to indicate the current page */
+}

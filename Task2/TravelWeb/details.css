@@ -1,0 +1,116 @@
+body {
+    background-image: url('C:\\Users\\Fatima\\OneDrive\\Pictures\\dbimg2.jpg');
+    font-family: Arial, sans-serif;
+   
+    background-size: 100% 100%; /* Cover the entire viewport */
+    background-attachment: fixed; /* Fixed background position */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+}
+
+.ticket {
+    width: 300px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ticket-content {
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    padding: 20px;
+}
+
+.boarding-pass {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.boarding-pass-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.boarding-pass-title {
+    margin: 0;
+}
+
+.boarding-pass-details {
+    padding: 20px;
+    text-align: center;
+}
+
+.boarding-pass-info {
+    margin: 5px 0;
+}
+
+.boarding-pass-actions {
+    text-align: center;
+    padding: 20px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.logout-container {
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    right: 20px; /* Adjust the distance from the right as needed */
+}
+
+/* Style for the logout button */
+.logout-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.dashboard {
+    /* Set the background image path */
+    background-image: url('C:\\Users\\Fatima\\OneDrive\\Pictures\\dbimg2.jpg'); /* Update the path to your dashboard background image */
+
+    /* Adjust the background properties as needed */
+    background-size: 100% 100%; /* Cover the entire viewport */
+    background-attachment: fixed; /* Fixed background position */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+}
+.menu-container {
+    position:fixed;
+    top: 0;
+    width: 140%; /* Make the menu container span the entire width */
+    background-color: #007bff; /* Set the menu background color */
+    z-index: 10000;
+    padding: 10px; /* Add some padding for spacing */
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline; /* Display menu items horizontally */
+    margin-right: 20px; /* Add spacing between menu items */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff; /* Set the menu item text color */
+    font-weight: bold; /* Make menu items bold */
+}
+
+/* Style for the active menu item (e.g., the current page) */
+.menu a.current {
+    border-bottom: 2px solid #fff; /* Add a bottom border to indicate the current page */
+}

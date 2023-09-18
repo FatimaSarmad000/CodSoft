@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="search.css" href="travel.css">
+    <title>Flight Search</title>
+</head>
+<body class="dashboard"></body>
+    <div class="menu-container">
+        <nav class="menu">
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="search.html">Search and Booking</a></li>
+                <li><a href="payment.html">Payment Processing</a></li>
+                <li><a href="notifications.html">Notification and Alerts</a></li>
+                <li><a href="reviews.html">Reviews and Ratings</a></li>
+                <li><a href="mybookings.html">My Bookings</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </div>
+<body class="search"></body>
+    <div class="flight-search-container">
+        <h1 class="flight-search-heading">Search Flights</h1>
+        <form class="flight-search-form">
+            <label for="departureDate" class="flight-search-label">Departure Date:</label>
+            <input type="date" id="departureDate" class="flight-search-input" required><br><br>
+
+            <label for="Return Date" class="flight-search-label">Arrival Date:</label>
+            <input type="date" id="arrivalDate" class="flight-search-input" required><br><br>
+
+            <label for="adults" class="flight-search-label">Adults:</label>
+            <input type="number" id="adults" class="flight-search-input" min="1" value="1" required><br><br>
+
+            <label for="children" class="flight-search-label">Children:</label>
+            <input type="number" id="children" class="flight-search-input" min="0" value="0" required><br><br>
+
+            <button type="submit" class="flight-search-button" onclick=" redirecttoavail()">Search</button>
+            
+            <button type="submit" class="flight-search-button" onclick=" redirecttopayment()">PAYMENT</button>
+        </form>
+    </div>
+    <script>
+        function redirecttopayment()
+        {
+            window.location.href="payment.html"
+        }
+        function redirecttoavail()
+        {
+            window.location.href="availflights.html"
+        }
+    </script>
+</body>
+</html>

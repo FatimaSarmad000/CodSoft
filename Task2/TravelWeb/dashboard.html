@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  
+    <link rel="stylesheet" href="travel.css">
+    <title>Dashboard</title>
+    
+   
+</head>
+<body class="dashboard"></body>
+    <div class="menu-container">
+        <nav class="menu">
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="search.html">Search and Booking</a></li>
+                <li><a href="payment.html">Payment Processing</a></li>
+                <li><a href="notifications.html">Notification and Alerts</a></li>
+                <li><a href="reviews.html">Reviews and Ratings</a></li>
+                <li><a href="mybookings.html">My Bookings</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="search-container">
+        <h1>Search Flights</h1>
+        <div class="search-bar">
+            <!-- Dropdown menu with airport names -->
+            <select id="airportDropdown">
+                <option value="" disabled selected>Select an airport</option>
+                <option value="ATL">Hartsfield-Jackson Atlanta International Airport (ATL)</option>
+                <option value="LAX">Los Angeles International Airport (LAX)</option>
+                <option value="ORD">Chicago O'Hare International Airport (ORD)</option>
+                <option value="DFW">Dallas/Fort Worth International Airport (DFW)</option>
+                <option value="DEN">Denver International Airport (DEN)</option>
+                <option value="JFK">John F. Kennedy International Airport (JFK)</option>
+                <option value="SFO">San Francisco International Airport (SFO)</option>
+                <option value="LAS">McCarran International Airport (LAS)</option>
+                <option value="MIA">Miami International Airport (MIA)</option>
+                <option value="SEA">Seattle-Tacoma International Airport (SEA)</option>
+                <option value="PHX">Phoenix Sky Harbor International Airport (PHX)</option>
+                <option value="IAH">George Bush Intercontinental Airport (IAH)</option>
+                <option value="MCO">Orlando International Airport (MCO)</option>
+                <option value="EWR">Newark Liberty International Airport (EWR)</option>
+                <option value="BOS">Logan International Airport (BOS)</option>
+                <option value="MSP">Minneapolis-Saint Paul International Airport (MSP)</option>
+                <option value="DTW">Detroit Metropolitan Wayne County Airport (DTW)</option>
+                <option value="PHL">Philadelphia International Airport (PHL)</option>
+                <option value="FLL">Fort Lauderdale-Hollywood International Airport (FLL)</option>
+                <option value="BWI">Baltimore/Washington International Thurgood Marshall Airport (BWI)</option>
+            </select>
+            <button type="submit" onclick="redirecttosearch()" alt="Search"></button>
+        </div>
+    </div>
+
+    <script>
+        function redirecttosearch()
+        {
+            window.location.href="search.html"
+        }
+    </script>
+    
+</body>
+</html>

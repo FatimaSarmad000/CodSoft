@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url('C:\\Users\\Fatima\\OneDrive\\Pictures\\travelbg.jpg');
+   
+        background-size: cover; /* Set the background size to cover the entire viewport */
+         /* Center the background image */
+        background-repeat: no-repeat; /* Prevent the background from repeating */
+        /* Other CSS styles... */
+    
+    
+    /* Note: Use double backslashes in the file path for Windows */
+   /* Optional: Set the background size to cover the entire viewport */
+}
+.container {
+    max-width: 450px;
+    margin: 250px auto;
+    padding: 70px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+/* Style for the menu container */
+.menu-container {
+    position:fixed;
+    top: 0;
+    width: 140%; /* Make the menu container span the entire width */
+    background-color: #007bff; /* Set the menu background color */
+    z-index: 10000;
+    padding: 10px; /* Add some padding for spacing */
+}
+
+/* Style for the menu */
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline; /* Display menu items horizontally */
+    margin-right: 20px; /* Add spacing between menu items */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff; /* Set the menu item text color */
+    font-weight: bold; /* Make menu items bold */
+}
+
+/* Style for the active menu item (e.g., the current page) */
+.menu a.current {
+    border-bottom: 2px solid #fff; /* Add a bottom border to indicate the current page */
+}
+
+/* Style for the search container */
+.search-container {
+    text-align: center;
+    margin-top: 100px; /* Adjust the margin as needed to position the search container */
+}
+
+/* Style for the "Search Flights" heading */
+.search-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style for the search bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style for the search input */
+.search-bar input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+/* Style for the search button (icon) */
+.search-bar button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px; /* Add spacing between input and button */
+    cursor: pointer;
+}
+.dashboard {
+    /* Set the background image path */
+    background-image: url('C:\\Users\\Fatima\\OneDrive\\Pictures\\dbimg2.jpg'); /* Update the path to your dashboard background image */
+
+    /* Adjust the background properties as needed */
+    background-size: 100% 100%; /* Cover the entire viewport */
+    background-attachment: fixed; /* Fixed background position */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+}
